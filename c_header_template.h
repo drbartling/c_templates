@@ -1,13 +1,16 @@
-/*******************************************************************************
- * @file c_header_template.h
+/**
+ * @file
+ * TODO: c_header_template.h
  *
- * @author Name
+ * @author
+ * TODO: Name
  *
- * @brief Give a brief description of the file in complete sentences.
+ * @brief
+ * TODO: Give a brief description of the file in complete sentences.
  *
- * Provide a more detailed description in complete sentences.
+ * TODO: Provide a more detailed description in complete sentences.
  *
- ******************************************************************************/
+ */
 
 /*******************************************************************************
  *
