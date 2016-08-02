@@ -1,50 +1,47 @@
 /*******************************************************************************
- * TODO: <Descriptive Title>
+ * @File
+ * c_header_template.c
  *
- * Author:
- *  TODO: <Name>
+ * @Author
+ * TODO: Name
  *
- * File Name:
- *  TODO: <file_name.c>
+ * @Brief
+ * TODO: Give a brief description of the file in complete sentences.
  *
- * Summary:
- *  TODO: <Brief description of the file (include a period).>
- *
- * Description:
- *  TODO: <This section is for a description of the file. It should be in
- *  complete sentences describing the purpose of this file.>
+ * @Details
+ * TODO: Provide a more detailed description in complete sentences
  *
  ******************************************************************************/
 
 /*******************************************************************************
-
-The MIT License (MIT)
-
-Copyright (c) TODO: <year> <name>
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-*******************************************************************************/
+ *
+ * The MIT License (MIT)
+ *
+ * Copyright (c) TODO: <year> <name>
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ ******************************************************************************/
 
 //
 // Section: Included Files
 //
- 
+
 // TODO: Update header file
 #include "header_template.h"
 #include <stdbool.h>
@@ -58,16 +55,16 @@ SOFTWARE.
 // TODO: Remove section if not used.
 
 // TODO: Remove example constant
-// Briefly describe all constants.  Wrap defines in parenthasese.
+/// Briefly describe all constants.  Wrap defines in parenthasese.
 #define SOURCE_EXAMPLE_CONSTANT (42)
 
 //
 // Section: Global Variable Declarations
 //
 // TODO: Remove section if not used.
- 
+
 // TODO: Remove example global
-// Briefly describe all globals.
+/// Briefly describe all globals.
 static int SOURCE_exampleVariable;
 
 //
@@ -79,7 +76,7 @@ static int SOURCE_exampleVariable;
 // Section: Static Function Prototypes
 //
 // TODO: Remove section if not used.
- 
+
 //
 // Section: Static Function Definitions
 //
@@ -90,8 +87,7 @@ static int SOURCE_exampleVariable;
 // Section: Template Module APIs
 //
 
-uint8_t TEMPLATE_ExampleAnswerGet(void)
-{
+uint8_t TEMPLATE_ExampleAnswerGet(uint8_t foo, uint8_t bar) {
     // TODO: Remove example function
     // Function described in header.
     return (SOURCE_EXAMPLE_CONSTANT);
