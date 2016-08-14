@@ -45,7 +45,7 @@
 
 #ifndef FILE_NAME_H    // Guards against multiple inclusion
 #define FILE_NAME_H
-//#error Change include gaurds to match the file name and remove this line
+#error Change include gaurds to match the file name and remove this line
 
 //
 // Section: Included Files

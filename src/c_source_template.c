@@ -42,7 +42,7 @@
 //
 
 // TODO: Update header file
-#include "header_template.h"
+#include "c_header_template.h"
 #include <stdbool.h>
 #include <stdint.h>
 #include <assert.h>
